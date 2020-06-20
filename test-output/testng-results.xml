@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="92237" started-at="2020-06-19T19:24:40Z" finished-at="2020-06-19T19:26:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="92237" started-at="2020-06-19T19:24:40Z" finished-at="2020-06-19T19:26:12Z">
+      <class name="com.bridgelabz.bookstore.testcase.User">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.bridgelabz.bookstore.testcase.User@ec756bd]" name="beforeTest" is-config="true" duration-ms="470" started-at="2020-06-19T19:24:40Z" finished-at="2020-06-19T19:24:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bridgelabz.bookstore.testcase.User@ec756bd]" name="setup" is-config="true" duration-ms="18283" started-at="2020-06-19T19:24:40Z" finished-at="2020-06-19T19:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addBookToCart(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelabz.bookstore.testcase.User@ec756bd]" name="addBookToCart" duration-ms="68385" started-at="2020-06-19T19:24:59Z" data-provider="user-login-info-excel-data-provider" finished-at="2020-06-19T19:26:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[niranjan246800@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[niranjan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookToCart -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.bridgelabz.bookstore.testcase.User@ec756bd]" name="tearDown" is-config="true" duration-ms="22" started-at="2020-06-19T19:26:07Z" finished-at="2020-06-19T19:26:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addBookToCart status=SUCCESS method=User.addBookToCart(java.lang.String, java.lang.String)[pri:0, instance:com.bridgelabz.bookstore.testcase.User@ec756bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.bridgelabz.bookstore.testcase.User@ec756bd]" name="endReport" is-config="true" duration-ms="4767" started-at="2020-06-19T19:26:07Z" finished-at="2020-06-19T19:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.bridgelabz.bookstore.testcase.User -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
