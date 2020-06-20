@@ -150,7 +150,7 @@ public class User {
 	}
 	
 	@Test(dataProvider = "user-login-info-excel-data-provider")
-	public void addBookToCart(String userId, String password) throws InterruptedException {
+	public void addAndRemoveBookToCart(String userId, String password) throws InterruptedException {
 
 		test = extent.createTest("LoginTest");
 		driver.get("http://localhost:4200/login");
