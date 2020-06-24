@@ -8,7 +8,7 @@
           <include name="endReport"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="sortBooks" invocation-numbers="0"/>
+          <include name="registration"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.bridgelabz.bookstore.testcase.User -->
